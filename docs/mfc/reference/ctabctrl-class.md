@@ -129,7 +129,7 @@ class CTabCtrl : public CWnd
 |[CTabCtrl::GetToolTips](#gettooltips)|タブ コントロールに関連付けられているツール ヒント コントロールのハンドルを取得します。|  
 |[CTabCtrl::HighlightItem](#highlightitem)|タブ項目の強調表示状態を設定します。|  
 |[CTabCtrl::HitTest](#hittest)|どのタブ存在する場合は、指定した画面位置を決定します。|  
-|[として](#insertitem)|タブ コントロールに新しいタブを挿入します。|  
+|[CTabCtrl::InsertItem](#insertitem)|タブ コントロールに新しいタブを挿入します。|  
 |[CTabCtrl::RemoveImage](#removeimage)|タブ コントロールのイメージ リストのイメージを削除します。|  
 |[CTabCtrl::SetCurFocus](#setcurfocus)|タブ コントロール内の指定したタブにフォーカスを設定します。|  
 |[CTabCtrl::SetCurSel](#setcursel)|タブ コントロールのタブを選択します。|  
