@@ -171,7 +171,7 @@ class CListBox : public CWnd
 |[CListBox::InsertString](#insertstring)|リスト ボックス内の特定位置に文字列を挿入します。|  
 |[CListBox::ItemFromPoint](#itemfrompoint)|ポイントに最も近いリスト ボックス項目のインデックスを返します。|  
 |[CListBox::MeasureItem](#measureitem)|リスト ボックスのサイズを決定する、オーナー描画リスト ボックスが作成されるときに、フレームワークによって呼び出されます。|  
-|[中](#resetcontent)|リスト ボックスからすべてのエントリをクリアします。|  
+|[CListBox::ResetContent](#resetcontent)|リスト ボックスからすべてのエントリをクリアします。|  
 |[CListBox::SelectString](#selectstring)|検索し、単一選択のリスト ボックスで文字列を選択します。|  
 |[CListBox::SelItemRange](#selitemrange)|選択または複数選択のリスト ボックス内の文字列の範囲の選択を解除します。|  
 |[CListBox::SetAnchorIndex](#setanchorindex)|拡張選択を開始する複数選択のリスト ボックスで、アンカーを設定します。|  
