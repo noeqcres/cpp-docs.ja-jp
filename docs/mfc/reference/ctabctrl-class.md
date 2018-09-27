@@ -130,7 +130,7 @@ class CTabCtrl : public CWnd
 |[CTabCtrl::GetToolTips](#gettooltips)|タブ コントロールに関連付けられたツール ヒント コントロールのハンドルを取得します。|
 |[CTabCtrl::HighlightItem](#highlightitem)|タブ項目の強調表示状態を設定します。|
 |[CTabCtrl::HitTest](#hittest)|どのタブがある場合、指定した画面位置を決定します。|
-|[として](#insertitem)|タブ コントロールの新しいタブを挿入します。|
+|[CTabCtrl::InsertItem](#insertitem)|タブ コントロールの新しいタブを挿入します。|
 |[CTabCtrl::RemoveImage](#removeimage)|タブ コントロールのイメージ リストからイメージを削除します。|
 |[CTabCtrl::SetCurFocus](#setcurfocus)|タブ コントロール内の指定したタブにフォーカスを設定します。|
 |[CTabCtrl::SetCurSel](#setcursel)|タブ コントロールでタブを選択します。|
@@ -609,7 +609,7 @@ int HitTest(TCHITTESTINFO* pHitTestInfo) const;
 
 指定した位置にタブがない場合は、タブ、または 1 の 0 から始まるインデックスを返します。
 
-##  <a name="insertitem"></a>  として
+##  <a name="insertitem"></a>  CTabCtrl::InsertItem
 
 既存のタブ コントロールで新しいタブを挿入します。
 
